@@ -1,6 +1,6 @@
 # Handle element resizes
 
-Nowadays browsers have started to support element resize handling natively using [ResizeObservers](https://wicg.github.io/ResizeObserver/). We use this feature (with a [polyfill](https://github.com/que-etc/resize-observer-polyfill)) to help you handle element resizes in React.  
+Nowadays browsers have started to support element resize handling natively using [ResizeObservers](https://wicg.github.io/ResizeObserver/). We use this feature (with a [polyfill](https://github.com/que-etc/resize-observer-polyfill)) to help you handle element resizes in Vue.  
 No `window.resize` listeners! No timeouts! Just a pure implementation with a lightning-fast polyfill!
 
 ## Installation
