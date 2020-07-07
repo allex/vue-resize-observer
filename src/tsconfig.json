@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "../lib",
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "es6", "es2017"],
+    "importHelpers": true,
+    "strict": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "moduleResolution": "node",
+    "declaration": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "diagnostics": true,
+    "listFiles": true,
+    "pretty": true,
+    "noEmitOnError": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "typeRoots": ["../node_modules/@types", "../types"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [ "./*" ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ]
+  },
+  "compileOnSave": true,
+  "include": [
+    "../types/*.d.ts",
+    "./*.tsx",
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
